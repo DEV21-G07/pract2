@@ -75,6 +75,7 @@ A acabar todo el código necesario para hacer el proyecto, pude empezar con aña
 
 Al final del juego también implementé una puerta que solo se abre cuando el jugador ha recogido todos los chips.
 
+Las salas y sus pruebas realizadas se encuentra en https://github.com/DEV21-G07/practica2/wiki/Las-pruebas en "El juego".
 
 ## Postproducción (Oct 20)
 Empece a jugar el juego algunas veces para saber si hay algo demasiado fácil o difícil. Además había unos errores pequeños que tuve que resolver cuando estaba haciendo el testing.
