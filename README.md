@@ -7,8 +7,6 @@ https://drive.google.com/file/d/1YXodqeNlWkXdCCFiZrz7NS9Z5DNaFtGo/view?usp=shari
 
 (Old version: https://drive.google.com/file/d/159zH-t63HN4xmSJBOt80BzSgH6qOlySz/view?usp=drivesdk)
 
-(IN PROGRESS: change documentation based on feedback)
-
 ----
 
 # El proyecto
