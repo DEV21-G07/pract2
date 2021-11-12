@@ -27,12 +27,13 @@ El jugador puede disparar al robot para defenderse (pero lo mejor es evitarlos) 
 Primero había que decidir para usar el sci-fi pack  (https://www.unrealengine.com/marketplace/en-US/product/modular-scifi-season-2-starter-bundle) o crear el mundo desde cero. Utilizar el mundo ya hecho podría resultar más difícil, ya que hay muchos detalles y extender ese mundo con muchos detalles podría tomar más tiempo. Pero si pensamos en la estética, seguramente será mejor con el mundo sci-fi, lo que hará el mundo parecer a la realidad más que si yo hubiera hecho el escenario. 
 
 #### Planificación
-
 Habrá que averiguar como hacer los AIs. Por eso también hay que investigar como funcionan los Nav Meshes.
 
 Después de eso, iré haciendo todos los objetos que se necesita para la jugabilidad del juego, antes de preocuparme con como se va a ver el mapa. 
 
 Cuando todo funcione bien, voy a empezar con añadir más partes de la fabrica. Quiero que el mapa sea un pasillo grande, a veces pasando una sala más grande. Así el jugador va abriendo las puertas una por una hasta que llega a la ultima puerta.
+
+A veces hay que haber trampas como objetos un poco escondidos, o pequeñas salas escondidas para que el jugador que no tenga cuidada abra la puerta equivocada.
 
 ## Produccion
 
