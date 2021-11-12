@@ -28,6 +28,14 @@ El jugador puede disparar al robot para defenderse (pero lo mejor es evitarlos) 
 #### Estética 
 Primero había que decidir para usar el sci-fi pack  (https://www.unrealengine.com/marketplace/en-US/product/modular-scifi-season-2-starter-bundle) o crear el mundo desde cero. Utilizar el mundo ya hecho podría resultar más difícil, ya que hay muchos detalles y extender ese mundo con muchos detalles podría tomar más tiempo. Pero si pensamos en la estética, seguramente será mejor con el mundo sci-fi, lo que hará el mundo parecer a la realidad más que si yo hubiera hecho el escenario. 
 
+#### Planificación
+
+Habrá que averiguar como hacer los AIs. Por eso también hay que investigar como funcionan los Nav Meshes.
+
+Después de eso, iré haciendo todos los objetos que se necesita para la jugabilidad del juego, antes de preocuparme con como se va a ver el mapa. 
+
+Cuando todo funcione bien, voy a empezar con añadir más partes de la fabrica. Quiero que el mapa sea un pasillo grande, a veces pasando una sala más grande. Así el jugador va abriendo las puertas una por una hasta que llega a la ultima puerta.
+
 ## Produccion
 
 #### Los AI robots (Oct 15)
@@ -66,7 +74,7 @@ También el spawner tiene que reaccionar en el momento que el jugador recoge una
 
 Primero puse el "event dispatcher" en el game mode, pero al fin me di cuenta que eso no es necesario, y puede estar en el código del carácter.
 
-#### Comunicación entre los robots
+#### Comunicación entre los robots (Oct 17)
 Esto al principio era un poco más complicado, porque no sabía cuál era la mejor manera de hacerlo. Al fin, esta lógica decidí de ponerla en el spawner, todos los robots del mismo spawner se pueden avisar entre ellos. El spawner tiene una lista de los robots, el robot tiene una referencia del spawner, cuando el robot ve el jugador, le avisa al spawner, quien le avisa a los demás robots.
 
 Con el código principal, había errores cuando un spawner o un robot del spawner está destruido. Porque en ambos casos intentan de llamar a funciones de un objeto que ya no existe. Cuando un robot está destruido, tiene que borrarse de la lista de robots del spawner. 
